@@ -1,0 +1,293 @@
+/* bootstrap imported*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: black;
+  color: white;
+}
+
+header video {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background-color: #3d315553;
+}
+
+.nav-brand {
+  font-size: 25px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(208, 208, 208);
+}
+
+.nav_links {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: rgb(67, 255, 4);
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn.btn-primary {
+  background-color: rgba(102, 0, 255, 0.916);
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #652d03;
+  color: white;
+  transition: 0.2s;
+}
+
+.hero {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.hero-intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 2rem;
+  height: 90%;
+  font-size: 25px;
+}
+.hero-intro p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  width: 20rem;
+  color: #bbbbbb;
+}
+
+.profile_img {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.hero ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-inline: 15rem;
+}
+
+.hero ul li a {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: larger;
+  text-decoration: underline;
+  color: white;
+  transition: 0.2s;
+}
+
+.hero ul li a:hover {
+  text-decoration: underline 5px;
+  cursor: pointer;
+  color: #dc6809;
+  transition: 0.3s;
+  font-size: 25px;
+}
+
+h1, h3{
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: lighter;
+}
+
+main {
+  margin-inline: 5rem;
+  margin-block: 1rem;
+}
+
+main h1 {
+  border-bottom: 1px solid #bbbbbb;
+  margin-bottom: 3rem;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 1rem;
+  width: 100dvw;
+  height:700px;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.project_img {
+  width: 405px;
+  height: 250px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.project_img:hover {
+  width: 425px;
+  height: 265px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.box-skill {
+  display: flex;
+  gap: 10rem;
+  background-color: #373737;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: lighter;
+}
+
+.box-skill ul,
+ol {
+  margin: 1rem 2rem;
+}
+
+.footer h1 {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 100;
+  margin-top: 5rem;
+}
+
+.footer-box {
+  padding-block: 4rem;
+  color: rgb(227, 227, 227);
+  background-color: #dc6809;
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+  align-content: center;
+}
+
+.footer-box div {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-box a {
+  color: white;
+  font-size: 40px;
+}
+
+.footer-box a:hover {
+  color: rgb(218, 218, 218);
+  transition: 0.3s;
+}
+
+.form-container {
+  margin: 2rem 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+.form-container label {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  height: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(82, 82, 82);
+}
+
+.flexor {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.flexor input {
+  width: 15px;
+  height: 15px;
+}
+
+.form-btn input {
+  width: 100%;
+  height: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(82, 82, 82);
+}
+
+.form-btn.primary input {
+  background-color: #dc6809;
+  color: white;
+  cursor: pointer;
+}
+
+.form-btn.primary input:hover {
+  background-color: #c35800;
+}
+
+.form-btn.secondary input {
+  cursor: pointer;
+}
+
+.c-table {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.c-table table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.c-table th,
+.c-table td {
+  border: 1px solid #000000;
+  padding: 10px;
+}

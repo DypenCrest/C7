@@ -1,0 +1,163 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-brand" data-aos="fade-right" data-aos-duration="1000">
+          <a href="index.html"><h2>DIPEN SHRESTHA</h2></a>
+        </div>
+        <ul class="nav_links">
+          <li>
+            <a
+              class="btn btn-primary"
+              target="_blank"
+              href="https://www.google.com/imgres?q=named%20dipen%20shrestha&imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FD4D03AQGXNuWaQWeOag%2Fprofile-displayphoto-shrink_200_200%2F0%2F1689931555468%3Fe%3D2147483647%26v%3Dbeta%26t%3DJHKf9NYkTHYv-lmLAZzD92TBA5lBppX9P6XnRBedOp8&imgrefurl=https%3A%2F%2Fnp.linkedin.com%2Fin%2Fdipen-shrestha-524508217&docid=78Kr100zpGesQM&tbnid=MAT8TnpAaqndoM&vet=12ahUKEwj707az65GHAxVMS2wGHRfwCD0QM3oECBUQAA..i&w=200&h=200&hcb=2&ved=2ahUKEwj707az65GHAxVMS2wGHRfwCD0QM3oECBUQAA"
+              ><img
+                src="https://static-00.iconduck.com/assets.00/google-icon-2048x2048-czn3g8x8.png"
+                width="15px"
+              />oogle</a
+            >
+          </li>
+          <li><a class="btn" href="./contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div class="hero-intro" data-aos="zoom-in">
+          <img
+            src="https://media.licdn.com/dms/image/D4D03AQGXNuWaQWeOag/profile-displayphoto-shrink_200_200/0/1689931555468?e=2147483647&v=beta&t=JHKf9NYkTHYv-lmLAZzD92TBA5lBppX9P6XnRBedOp8"
+            class="profile_img"
+            alt="profile_img"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <form action="index.html" class="form-container" data-aos="fade-up">
+        <h1>Contact Form</h1>
+        <div class="form-group">
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="contact">Contact Number:</label>
+          <input type="number" id="contact" name="contact" required />
+        </div>
+
+        <div class="form-group">
+          <label for="website">Website (if exists):</label>
+          <input type="url" id="website" name="website" />
+        </div>
+
+        <div>
+          <label>Gender:</label>
+          <div class="flexor">
+            <div>
+              <input
+                type="radio"
+                id="male"
+                name="gender"
+                value="male"
+                required
+              />
+              <label for="male">Male</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="female"
+                name="gender"
+                value="female"
+                required
+              />
+              <label for="female">Female</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="other"
+                name="gender"
+                value="other"
+                required
+              />
+              <label for="other">Other</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div>
+            <div class="flexor">
+              <input type="checkbox" id="agree" name="agree" required />
+              <label for="agree">I agree to the terms and conditions</label>
+            </div>
+            <div class="flexor">
+              <input type="checkbox" id="meetup" name="meetup" value="meetup" />
+              <label for="updates">Meet Up</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-btn primary">
+          <input type="submit" value="Submit" />
+        </div>
+        <div class="form-btn secondary">
+          <input type="reset" value="Reset" />
+        </div>
+      </form>
+      <div class="c-table">
+        <table>
+          <thead>
+            <tr>
+              <th>s.n</th>
+              <th>Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Dipen Shrestha</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Tom Crest</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <footer class="footer-box">
+      <p>&copy; 2024 By Dipen Shrestha. All rights reserved.</p>
+      <div>
+        <a href="https://www.facebook.com/Dipen.donot.access/" target="_blank"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/crest_dipen/" target="_blank"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/dipen-shrestha-524508217/?originalSubdomain=np"
+          target="_blank"
+          ><i class="bi bi-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
